@@ -8,11 +8,7 @@ app.use(express.json());
 app.use(express.text());
 
 app.get("/", (req, res, next) => {
-  res.status(200).json({
-    success: true,
-    route: "/",
-    data: "Connected",
-  });
+  res.status(200).send("Connected");
 });
 
 app.use("/user", require("./routes/getUser.route"));

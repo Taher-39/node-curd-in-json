@@ -1,0 +1,19 @@
+//fs module
+const fs = require("fs");
+
+ fs.writeFileSync("./server/data.txt", "hi");
+ fs.appendFileSync("./server/data.txt", " node is fun");
+
+ const data = fs.readFileSync("./server/data.txt");
+ console.log(data.toString());
+
+ fs.readFile("./server/data.json", (err, data) => {
+   if (err) throw new Error(err.message);
+   console.log("data: ", data.toString());
+ });
+
+
+ //number btween min to max range
+
+ Math.floor(Math.random() * (max - min) + min);
+ Math.floor(Math.random() * (max - min + 1) + min); //inclusive this range

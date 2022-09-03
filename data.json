@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "gender": "male",
+    "name": "Alim",
+    "contact": 12345,
+    "address": "Badda",
+    "photoUrl": "http://placehold.it/32x32"
+  },
+  {
+    "id": "2",
+    "gender": "female",
+    "name": "Fariha",
+    "contact": 12346,
+    "address": "Mirpur",
+    "photoUrl": "http://placehold.it/32x32"
+  },
+  {
+    "id": "3",
+    "gender": "male",
+    "name": "Karim",
+    "contact": 12349,
+    "address": "Gulshan",
+    "photoUrl": "http://placehold.it/32x32"
+  },
+  {
+    "id": "4",
+    "gender": "female",
+    "name": "Mariyum",
+    "contact": 12347,
+    "address": "savar",
+    "photoUrl": "http://placehold.it/32x32"
+  },
+  {
+    "id": "5",
+    "gender": "female",
+    "name": "Fatima",
+    "contact": 12348,
+    "address": "Malibag",
+    "photoUrl": "http://placehold.it/32x32"
+  },
+  {
+    "id": "6",
+    "gender": "male",
+    "name": "arif",
+    "contact": 123446,
+    "address": "uttora",
+    "photoUrl": "http://placehold.it/32x32"
+  }
+]

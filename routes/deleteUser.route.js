@@ -10,17 +10,13 @@ router.delete("/delete/:id", (req, res) => {
     } else {
       const parseData = JSON.parse(data);
 
-      const id = Number(req.params.id);
-      const isId = parseData.find((item) => Number(item.id) === id);
+      const { id } = req.params;
+      const isId = parseData.find((item) => item.id === id);
 
       if (!id || isId === undefined) {
-        if (isId === undefined) {
-          res.send(`Id ${id} not found in our database.`);
-        } else {
-          res.send("Please Insert Valid Id For Delete A User");
-        }
+        res.send(`Id ${id} not found in our database.`);
       } else {
-        const filterData = parseData.filter((item) => Number(item.id) !== id);
+        const filterData = parseData.filter((item) => item.id !== id);
         fs.writeFile(
           "../server/data.json",
           JSON.stringify(filterData, null, 2),

@@ -4,7 +4,7 @@
     "gender": "male",
     "name": "Alim",
     "contact": 12345,
-    "address": "Badda",
+    "address": "Updated Merul Badda",
     "photoUrl": "http://placehold.it/32x32"
   },
   {
@@ -28,23 +28,31 @@
     "gender": "female",
     "name": "Mariyum",
     "contact": 12347,
-    "address": "savar",
-    "photoUrl": "http://placehold.it/32x32"
-  },
-  {
-    "id": "5",
-    "gender": "female",
-    "name": "Fatima",
-    "contact": 12348,
-    "address": "Malibag",
+    "address": "Updated savar",
     "photoUrl": "http://placehold.it/32x32"
   },
   {
     "id": "6",
     "gender": "male",
-    "name": "arif",
+    "name": "Update Arif",
     "contact": 123446,
-    "address": "uttora",
-    "photoUrl": "http://placehold.it/32x32"
+    "address": "Update Uttora",
+    "photoUrl": "http://placehold.it/update-arif"
+  },
+  {
+    "id": "5",
+    "gender": "male",
+    "name": "Umar",
+    "contact": 1224446,
+    "address": "Mirpur-15",
+    "photoUrl": "http://placehold.it/Umar"
+  },
+  {
+    "id": "7",
+    "gender": "male",
+    "name": "Faruk",
+    "contact": 457896,
+    "address": "Badda",
+    "photoUrl": "http://placehold.it/Faruk"
   }
 ]

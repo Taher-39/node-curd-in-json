@@ -22,7 +22,7 @@ router.post("/save", (req, res) => {
             if (err) {
               res.send(err);
             } else {
-              res.send("Data saved");
+              res.send(`New user saved our database with id: ${id}`);
             }
           }
         );

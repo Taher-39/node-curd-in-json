@@ -5,7 +5,14 @@ const getAllUser = (req, res) => {
     if (err) {
       res.status(400).send(err);
     } else {
-      res.status(200).send(data);
+      const max = req.query.max;
+      if (max) {
+        const parseData = JSON.parse(data);
+        const limitedData = parseData.slice(0, max);
+        res.status(200).send(limitedData);
+      } else {
+        res.status(200).send(data);
+      }
     }
   });
 };
